@@ -1,0 +1,17 @@
+{
+	"name": "django-react-pre-render",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "node static/js/prerender.js > static/dist/prerendered.html"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.0",
+		"@babel/preset-react": "^7.22.15",
+		"@babel/register": "^7.23.0"
+	}
+}
